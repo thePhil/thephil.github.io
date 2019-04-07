@@ -3,10 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.phildev.ch/projects/serverless-fx/</loc>
+    <lastmod>2019-04-07T15:07:48+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.phildev.ch/projects/</loc>
+    <lastmod>2019-04-07T14:40:54+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://www.phildev.ch/about/</loc>
     <lastmod>2019-04-06T14:00:38+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.phildev.ch/tags/azure/</loc>
+    <lastmod>2019-04-07T15:07:48+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.phildev.ch/tags/azure-functions/</loc>
+    <lastmod>2019-04-07T15:07:48+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -17,13 +45,28 @@
   
   <url>
     <loc>https://www.phildev.ch/</loc>
-    <lastmod>2019-04-06T14:00:38+02:00</lastmod>
+    <lastmod>2019-04-07T15:07:48+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
+    <loc>https://www.phildev.ch/tags/project/</loc>
+    <lastmod>2019-04-07T15:07:48+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.phildev.ch/tags/serverless/</loc>
+    <lastmod>2019-04-07T15:07:48+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.phildev.ch/tags/</loc>
+    <lastmod>2019-04-07T15:07:48+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
