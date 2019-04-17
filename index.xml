@@ -1,35 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>PhilDev -- Proper. Software Development. on PhilDev</title>
+    <title>PhilDev -- Proper. Software Development. on PhilDev -- Proper. Software Development.</title>
     <link>https://www.phildev.ch/</link>
-    <description>Recent content in PhilDev -- Proper. Software Development. on PhilDev</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in PhilDev -- Proper. Software Development. on PhilDev -- Proper. Software Development.</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Apr 2019 15:07:48 +0200</lastBuildDate>
-    
-	<atom:link href="https://www.phildev.ch/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Serverless Fx</title>
-      <link>https://www.phildev.ch/projects/serverless-fx/</link>
-      <pubDate>Sun, 07 Apr 2019 15:07:48 +0200</pubDate>
-      
-      <guid>https://www.phildev.ch/projects/serverless-fx/</guid>
-      <description>Currency conversion rates master data service A Currency conversion master data service looks like a good candidate for learning about a cloud native implementation for azure functions. This is a master data service, providing base rates for financial systems in an enterprise like accounting, valuations. It does NOT cover trading activities in the area of Asset Management or any other type of high frequency financial service.
-The following characteristics speak for a serverless implementation:</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://www.phildev.ch/about/</link>
-      <pubDate>Sat, 06 Apr 2019 14:00:38 +0200</pubDate>
-      
-      <guid>https://www.phildev.ch/about/</guid>
-      <description>My Name is Philipp Tölle and I&amp;rsquo;m a Solution Architect and Senior Software Developer with a native desire to deliver Software properly.
-If you want to get in touch with me, please contact me via LinkedIn.</description>
-    </item>
+    <copyright>&amp;copy; Philipp Tölle, {year}</copyright>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
