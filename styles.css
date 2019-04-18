@@ -1751,7 +1751,7 @@ a.badge:hover {
 }
 
 .navbar-light {
-  background: #fff !important;
+  background: #003333 !important;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11)
 }
 
@@ -1760,7 +1760,7 @@ a.badge:hover {
 }
 
 .navbar-toggler {
-  color: #003333 !important;
+  color: #fff !important;
 }
 
 .navbar-light .navbar-toggler:focus,
@@ -1779,24 +1779,24 @@ nav#navbar-main li.nav-item {
   white-space: nowrap;
   -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
-  color: #003333;
+  color: #fff;
   font-weight: 600;
 }
 
 .navbar-light .navbar-nav>.nav-item>.nav-link:focus {
-  color: #003333;
+  color: #fff;
   background-color: transparent;
 }
 
 .navbar-light .navbar-nav>.nav-item>.nav-link:hover {
-  color: #8b2635;
+  color: #d5573b;
   background-color: transparent;
 }
 
 .navbar-light .navbar-nav>li.nav-item>a.active,
 .navbar-light .navbar-nav>li.nav-item>a.active:focus,
 .navbar-light .navbar-nav>li.nav-item>a.active:hover {
-  color: #8b2635;
+  color: #d5573b;
   font-weight: 700;
   background-color: transparent !important; /* Override Bootstrap. */
 }
@@ -1814,11 +1814,11 @@ nav#navbar-main li.nav-item {
 }
 
 .navbar-light .navbar-toggler .icon-bar {
-  background-color: #003333 !important;
+  background-color: #fff !important;
 }
 
 .dropdown-menu {
-  background-color: #fff !important;
+  background-color: #003333 !important;
 }
 
 .dropdown-menu > li > a {
@@ -1827,23 +1827,23 @@ nav#navbar-main li.nav-item {
   clear: both;
   font-weight: 400;
   line-height: 1.42857143;
-  color: #003333;
+  color: #fff;
   white-space: nowrap;
 }
 
 .dropdown-menu>li>a:focus,
 .dropdown-menu>li>a:hover {
-  color: #8b2635;
+  color: #d5573b;
   text-decoration: none;
-  background-color: #fff;
+  background-color: #003333;
 }
 
 .dropdown-menu > .active,
 .dropdown-menu > .active:focus,
 .dropdown-menu > .active:hover {
-  color: #fff;
+  color: #003333;
   text-decoration: none;
-  background-color: #8b2635;
+  background-color: #d5573b;
   outline: 0;
 }
 
@@ -1851,8 +1851,8 @@ nav#navbar-main li.nav-item {
 .navbar-light .navbar-nav>.open>a:focus,
 .navbar-light .navbar-nav>.open>a:hover,
 .navbar-light .navbar-nav>.open>a:visited {
-  color: #003333 !important;
-  background-color: #fff !important;
+  color: #fff !important;
+  background-color: #003333 !important;
 }
 
 .navbar-light .navbar-brand {
@@ -1905,7 +1905,7 @@ nav#navbar-main li.nav-item {
     clear: both;
     font-weight: 400;
     line-height: 1.42857143;
-    color: #003333;
+    color: #fff;
     white-space: nowrap;
   }
 
@@ -1921,7 +1921,7 @@ nav#navbar-main li.nav-item {
   .navbar-light .navbar-nav .open .dropdown-menu > li > a {
     padding: 5px 15px 5px 25px;
     line-height: 20px;
-    color: #003333;
+    color: #fff;
   }
 
   .navbar-light .navbar-nav .open .dropdown-menu > li > a:focus,
@@ -1933,7 +1933,7 @@ nav#navbar-main li.nav-item {
   .navbar-light .navbar-nav .open .dropdown-menu >.nav-item> .active,
   .navbar-light .navbar-nav .open .dropdown-menu >.nav-item> .active:focus,
   .navbar-light .navbar-nav .open .dropdown-menu >.nav-item> .active:hover {
-    color: #8b2635;
+    color: #d5573b;
     background-color: transparent;
   }
 
