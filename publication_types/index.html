@@ -129,6 +129,32 @@
 
   
 
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#003333",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#003333"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://cookies.insites.com"
+      }
+    })});
+</script>
+
+
   
 
   <title>Publication_types | PhilDev -- Proper. Software Development.</title>
@@ -171,7 +197,7 @@
   <div class="container">
 
     
-      <a class="navbar-brand" href="/"><img src="/img/phildev-logo.png" alt="PhilDev -- Proper. Software Development."></a>
+      <a class="navbar-brand" href="/"><img src="/img/phildev-logo-nameonly.png" alt="PhilDev -- Proper. Software Development."></a>
       
       <button type="button" class="navbar-toggler" data-toggle="collapse"
               data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
