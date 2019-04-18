@@ -7,7 +7,114 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Philipp Tölle, {year}</copyright>
+    <lastBuildDate>Thu, 18 Apr 2019 18:17:12 +0200</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Livingroom Lights</title>
+      <link>https://www.phildev.ch/project/livingroom-lights/</link>
+      <pubDate>Thu, 18 Apr 2019 18:17:12 +0200</pubDate>
+      
+      <guid>https://www.phildev.ch/project/livingroom-lights/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Currency conversion rates master data service</title>
+      <link>https://www.phildev.ch/project/azure-functions-fx/</link>
+      <pubDate>Thu, 18 Apr 2019 18:09:35 +0200</pubDate>
+      
+      <guid>https://www.phildev.ch/project/azure-functions-fx/</guid>
+      <description>
+
+&lt;p&gt;A Currency conversion master data service looks like a good candidate for learning about a cloud native implementation for azure functions.
+This is a master data service, providing base rates for financial systems in an enterprise like accounting, valuations. It does NOT cover trading activities in the area of Asset Management or any other type of high frequency financial service.&lt;/p&gt;
+
+&lt;p&gt;The following characteristics speak for a serverless implementation:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Update frequency once a day&lt;/li&gt;
+&lt;li&gt;Data being served from a database&lt;/li&gt;
+&lt;li&gt;Read only workload&lt;/li&gt;
+&lt;li&gt;Read only but once type of workload&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The goals of this project are outlined in the following&lt;/p&gt;
+
+&lt;h2 id=&#34;goals&#34;&gt;Goals&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Learn about Azure Functions&lt;/li&gt;
+&lt;li&gt;Demonstrate FX Conversion is perfect a use case&lt;/li&gt;
+&lt;li&gt;Find limits of Azure functions&lt;/li&gt;
+&lt;li&gt;Demonstrate abilities&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;highlights&#34;&gt;Highlights&lt;/h2&gt;
+
+&lt;p&gt;Concurrent spawing of functions via queue storage
+Data Factory to download large file via HTTP (avoid running out of function execution time).
+Two function apps, one part written in Kotlin, another part written with Java.
+Usage of Binding Expressions&lt;/p&gt;
+
+&lt;h2 id=&#34;notes&#34;&gt;Notes&lt;/h2&gt;
+
+&lt;p&gt;The price of function execution is hidden in the storage accounts. The reason being that for each &amp;ldquo;cold&amp;rdquo; execution the
+jar with all dependencies is being read from the storage account.&lt;/p&gt;
+
+&lt;p&gt;Nevertheless costs can still be lower then today. ~ 100 USD/month for WUDIS is literally nothing.&lt;/p&gt;
+
+&lt;p&gt;There is only one jar per Function App and this jar is always at least 4MB.&lt;/p&gt;
+
+&lt;p&gt;Usage of dependencies already added to azure java functions to reduce size of jar.
+Usage of JDK native implementations should be encourage to avoid bloated size of jars.
+Also the usage of Application Insights seems to be quite costly (50% of the cost).
+Binding Expressions are very useful and can expres a lot of what usually would be done by using the Storage SDK.
+On the other side the storage SDK does allow a more fine grained control.&lt;/p&gt;
+
+&lt;h2 id=&#34;function-orchestration&#34;&gt;Function Orchestration&lt;/h2&gt;
+
+&lt;p&gt;With the current lack of durable function support in Java, their are two solutions possible:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Implmenting the orchestration layer with durable functions from C#&lt;/li&gt;
+&lt;li&gt;Own implmentation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The solution does follow a Fan-IN/OUT pattern for the parsing of the historic files.&lt;/p&gt;
+
+&lt;p&gt;The Fan-Out part is fairly easy and is achieved by posting a list of messages (one for each day) to a queue. The subtask to work on the parsing of the XML file is triggered by a new message in such a queue.&lt;/p&gt;
+
+&lt;p&gt;The Fan-In part is rather more complex. Principially an &lt;em&gt;atomic operation&lt;/em&gt; is needed to be 100% certain that all the parsing jobs did finish.
+A couple of strategies have each their specific disadvantages.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Polling of the underlying datastore to count the finished daily spot documents is problematic because of the runtime limitations of Azure Functions (ca. 300 seconds)&lt;/li&gt;
+&lt;li&gt;Another solution would be a counter that counts down everytime when a parsing has finished. The precondition again is atomicity. Here integrated functions in CosmosDB provide the solution. The counter will be integrated and once 0 is reached, a new document will be inserted into the CosmosDB. A function monitoring the changefeed will pickup the notification and trigger the calculation step.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;improvements&#34;&gt;Improvements&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Memory intensive operations like parsing the xml dom have been moved to a singleton pattern.&lt;/li&gt;
+&lt;li&gt;The usage of the event grid should be explored for coordidation among high volume of storage and function invocations.&lt;/li&gt;
+&lt;li&gt;Alternatively a solution with stateful functions should be explored, once available for Java Functions.&lt;/li&gt;
+&lt;li&gt;Logging can be reduced&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;architecture-overview&#34;&gt;Architecture Overview&lt;/h2&gt;
+
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://www.phildev.ch/img/project/serverless-fx/architecture-overview.svg&#34; /&gt;
+
+
+&lt;/figure&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

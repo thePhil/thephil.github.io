@@ -11,5 +11,32 @@
 	<atom:link href="https://www.phildev.ch/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>azure</title>
+      <link>https://www.phildev.ch/tags/azure/</link>
+      <pubDate>Thu, 18 Apr 2019 18:09:35 +0200</pubDate>
+      
+      <guid>https://www.phildev.ch/tags/azure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cloud</title>
+      <link>https://www.phildev.ch/tags/cloud/</link>
+      <pubDate>Thu, 18 Apr 2019 18:09:35 +0200</pubDate>
+      
+      <guid>https://www.phildev.ch/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>serverless</title>
+      <link>https://www.phildev.ch/tags/serverless/</link>
+      <pubDate>Thu, 18 Apr 2019 18:09:35 +0200</pubDate>
+      
+      <guid>https://www.phildev.ch/tags/serverless/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

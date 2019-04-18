@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>serverless on </title>
-    <link>https://www.phildev.ch/tags/serverless/</link>
-    <description>Recent content in serverless on </description>
+    <title>cloud on </title>
+    <link>https://www.phildev.ch/tags/cloud/</link>
+    <description>Recent content in cloud on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Philipp Tölle, {year}</copyright>
     <lastBuildDate>Thu, 18 Apr 2019 18:09:35 +0200</lastBuildDate>
     
-	<atom:link href="https://www.phildev.ch/tags/serverless/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.phildev.ch/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

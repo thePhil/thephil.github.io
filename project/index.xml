@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>serverless on </title>
-    <link>https://www.phildev.ch/tags/serverless/</link>
-    <description>Recent content in serverless on </description>
+    <title>Projects on </title>
+    <link>https://www.phildev.ch/project/</link>
+    <description>Recent content in Projects on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Philipp Tölle, {year}</copyright>
-    <lastBuildDate>Thu, 18 Apr 2019 18:09:35 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 18 Apr 2019 18:17:12 +0200</lastBuildDate>
     
-	<atom:link href="https://www.phildev.ch/tags/serverless/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.phildev.ch/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Livingroom Lights</title>
+      <link>https://www.phildev.ch/project/livingroom-lights/</link>
+      <pubDate>Thu, 18 Apr 2019 18:17:12 +0200</pubDate>
+      
+      <guid>https://www.phildev.ch/project/livingroom-lights/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Currency conversion rates master data service</title>
