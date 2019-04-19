@@ -1,106 +1,90 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-    <url>
-    
-      <loc>https://www.phildev.ch/project/livingroom-lights/</loc>
-      <lastmod>2019-04-18T18:17:12+02:00</lastmod>
-    </url>
+  <url>
+    <loc>https://www.phildev.ch/project/livingroom-lights/</loc>
+    <lastmod>2019-04-18T18:17:12+02:00</lastmod>
+  </url>
   
-    <url>
-    
-      <loc>https://www.phildev.ch/project/azure-functions-fx/</loc>
-      <lastmod>2019-04-18T18:09:35+02:00</lastmod>
-    </url>
+  <url>
+    <loc>https://www.phildev.ch/project/azure-functions-fx/</loc>
+    <lastmod>2019-04-18T18:09:35+02:00</lastmod>
+  </url>
   
-    <url>
-    
-      <loc>https://www.phildev.ch/</loc>
-      <lastmod>2019-04-18T18:17:12+02:00</lastmod>
-      <priority>0</priority>
-    </url>
+  <url>
+    <loc>https://www.phildev.ch/</loc>
+    <lastmod>2019-04-18T18:17:12+02:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    <url>
-    
-      <loc>https://www.phildev.ch/author/admin/</loc>
-    </url>
+  <url>
+    <loc>https://www.phildev.ch/author/admin/</loc>
+  </url>
   
-    <url>
-    
-      <loc>https://www.phildev.ch/author/</loc>
-      <priority>0</priority>
-    </url>
+  <url>
+    <loc>https://www.phildev.ch/author/</loc>
+    <priority>0</priority>
+  </url>
   
-    <url>
-    
-      <loc>https://www.phildev.ch/authors/</loc>
-      <priority>0</priority>
-    </url>
+  <url>
+    <loc>https://www.phildev.ch/authors/</loc>
+    <priority>0</priority>
+  </url>
   
-    <url>
-    
-      <loc>https://www.phildev.ch/categories/</loc>
-      <priority>0</priority>
-    </url>
+  <url>
+    <loc>https://www.phildev.ch/categories/</loc>
+    <priority>0</priority>
+  </url>
   
-    <url>
-    
-      <loc>https://www.phildev.ch/post/</loc>
-    </url>
+  <url>
+    <loc>https://www.phildev.ch/post/</loc>
+  </url>
   
-    <url>
-    
-      <loc>https://www.phildev.ch/project/</loc>
-      <lastmod>2019-04-18T18:17:12+02:00</lastmod>
-    </url>
+  <url>
+    <loc>https://www.phildev.ch/project/</loc>
+    <lastmod>2019-04-18T18:17:12+02:00</lastmod>
+  </url>
   
-    <url>
-    
-      <loc>https://www.phildev.ch/publication_types/</loc>
-      <priority>0</priority>
-    </url>
+  <url>
+    <loc>https://www.phildev.ch/publication_types/</loc>
+    <priority>0</priority>
+  </url>
   
-    <url>
-    
-      <loc>https://www.phildev.ch/publication/</loc>
-    </url>
+  <url>
+    <loc>https://www.phildev.ch/publication/</loc>
+  </url>
   
-    <url>
-    
-      <loc>https://www.phildev.ch/talk/</loc>
-    </url>
+  <url>
+    <loc>https://www.phildev.ch/talk/</loc>
+  </url>
   
-    <url>
-    
-      <loc>https://www.phildev.ch/tags/</loc>
-      <priority>0</priority>
-    </url>
+  <url>
+    <loc>https://www.phildev.ch/tags/</loc>
+    <priority>0</priority>
+  </url>
   
-    <url>
-    
-      <loc>https://www.phildev.ch/authors/admin/</loc>
-      <priority>0</priority>
-    </url>
+  <url>
+    <loc>https://www.phildev.ch/authors/admin/</loc>
+    <priority>0</priority>
+  </url>
   
-    <url>
-    
-      <loc>https://www.phildev.ch/tags/azure/</loc>
-      <lastmod>2019-04-18T18:09:35+02:00</lastmod>
-      <priority>0</priority>
-    </url>
+  <url>
+    <loc>https://www.phildev.ch/tags/azure/</loc>
+    <lastmod>2019-04-18T18:09:35+02:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    <url>
-    
-      <loc>https://www.phildev.ch/tags/cloud/</loc>
-      <lastmod>2019-04-18T18:09:35+02:00</lastmod>
-      <priority>0</priority>
-    </url>
+  <url>
+    <loc>https://www.phildev.ch/tags/cloud/</loc>
+    <lastmod>2019-04-18T18:09:35+02:00</lastmod>
+    <priority>0</priority>
+  </url>
   
-    <url>
-    
-      <loc>https://www.phildev.ch/tags/serverless/</loc>
-      <lastmod>2019-04-18T18:09:35+02:00</lastmod>
-      <priority>0</priority>
-    </url>
+  <url>
+    <loc>https://www.phildev.ch/tags/serverless/</loc>
+    <lastmod>2019-04-18T18:09:35+02:00</lastmod>
+    <priority>0</priority>
+  </url>
   
 </urlset>
